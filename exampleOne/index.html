@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables</title>
-    <script src="js/variables.js"></script>
+    <title>Operaciones Aritmeticas</title>
+    <!-- <script src="js/variables.js"></script> -->
+    <script src="js/operArit.js"></script>
 </head>
 <body>
+    <h1>Formulario Operaciones Aritmeticas</h1>
+    <form>
+        <label for="nUno">Numero Uno</label>
+        <input type="text" name="nUno" id="nUno">
+        <br><br>
+        <label for="nDos">Numero Dos</label>
+        <input type="text" name="nDos" id="nDos">
+        <br><br>
+        <button type="button" onclick="sumar()" >Calcular</button>
+        <br><br>
+        <button type="button" onclick="multiplicar()" >Multiplicar</button>
+        <p>Resultado:
+            <textarea id="resulOperacion" cols="5" rows="1"></textarea>
+        </p>
+    </form>
+    <hr>
     
 </body>
 </html>
