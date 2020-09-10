@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operaciones Aritmeticas</title>
     <!-- <script src="js/variables.js"></script> -->
-    <script src="js/operArit.js"></script>
+    <!-- <script src="js/operArit.js"></script> -->
+    <script src="js/eDecision.js"></script>
 </head>
 <body>
-    <h1>Formulario Operaciones Aritmeticas</h1>
+    <!-- <h1>Formulario Operaciones Aritmeticas</h1>
     <form>
         <label for="nUno">Numero Uno</label>
         <input type="text" name="nUno" id="nUno">
@@ -22,8 +23,32 @@
         <p>Resultado:
             <textarea id="resulOperacion" cols="5" rows="1"></textarea>
         </p>
-    </form>
-    <hr>
-    
+    </form> -->
+    <h1>Ejemplos estructuras de decision</h1>
+    <section>    
+        <h2>If simple y compuesto</h2>
+        <form>
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" id="edad">
+            <br><br>
+            <button type="button" onclick="mostrarMensaje()">Mostrar</button>
+        </form>
+    </section>
+    <br><hr>
+    <section>    
+        <h2>If anidado</h2>
+        <form>
+            <label for="edadP">Edad</label>
+            <input type="text" name="edadP" id="edadP">
+            <br><br>
+            <label for="estaturaP">Estatura</label>
+            <input type="text" name="estaturaP" id="estaturaP">
+            <br><br>
+            <label for="pesoP">Peso</label>
+            <input type="text" name="pesoP" id="pesoP">
+            <br><br>
+            <button type="button" onclick="mostrarMensajeDos()">Mostrar</button>
+        </form>
+    </section>
 </body>
 </html>
